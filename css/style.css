@@ -1,0 +1,161 @@
+/*
+Configurações padrões
+*/
+
+body, html {
+    margin: 0;
+    font: 16px "Lato", sans-serif;
+    color: #777;
+    height: 100%;
+}
+
+.conteudo {
+    color: #fff;
+    background-color: #111;
+    text-align: center;
+    padding: 50px 80px;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: rgb(247, 131, 7);
+    text-align: center;
+    font-size: 25px;
+    font-family: Gango;
+}
+
+P {
+    margin-bottom: 20px;
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+@font-face {
+    font-family: Ancient;
+    src: url("../fonts/Ancient-Medium.woff");
+}
+
+@font-face {
+    font-family: Academy;
+    src: url("../fonts/Academy-Regular.woff");
+}
+
+@font-face {
+    font-family: Gango;
+    src: url("../fonts/GangofThree.woff");
+}
+
+@font-face {
+    font-family: Japanese;
+    src: url("../fonts/Japanese3017.woff");
+}
+
+/*
+Efeito parallax
+*/
+
+.caixa1, .caixa2, .caixa3, .caixa4, .caixa5 {
+    height: 100%;
+    opacity: 0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+
+.caixa1 {
+    background-image: url(../img/naruto2.webp);    
+}
+
+.caixa2 {
+    background-image: url(../img/attack-on-titan2.jpeg);
+}
+
+.caixa3 {
+    background-image: url(../img/boku-no-hero2.jpg);
+}
+
+.caixa5 {
+    background-image: url(../img/one-piece2.jpg);
+    
+}
+
+.conteudo-titulo {
+    position: absolute;
+    left: 0;
+    top: 42%;
+    width: 100%;
+    text-align: center;    
+}
+
+.conteudo-titulo span.titulo {
+    color: rgb(247, 131, 7);
+    background-color: #111;
+    padding: 18px;
+    font-size: 40px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: Gango;
+}
+
+/*Barra de navegação*/
+
+nav.navbar-transparent {
+    padding: 15px 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(247, 131, 7);
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(255,255,255,0.5);
+}
+
+.divisor {
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
+}
+
+/*--Footer--*/
+
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+}
+
+footer .navbar-nav a {
+    color: white;
+    font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover {
+    color:rgb(247, 131, 7);
+    text-decoration: none;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+}
+
+
